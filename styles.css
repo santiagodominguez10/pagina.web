@@ -13,9 +13,14 @@ body {
 }
 
 h1 {
+     
+    color: #6495ed; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    transform: skew(0deg, 0deg) scale(1.2); /* Efecto 3D y escala */
+    font-size: 40px; /* Tamaño del texto */
     text-align: center;
-    background-color: #6495ed;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input {
@@ -40,3 +45,7 @@ button {
 button:hover {
     opacity: 0.8;
 }
+
+
+   
+  
